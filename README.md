@@ -1,0 +1,2 @@
+# homework
+мы изучаем GIT
