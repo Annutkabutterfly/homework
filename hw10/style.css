@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf); }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.header {
+  background-color: #EEEFF1; }
+
+.header-block {
+  padding: 80px 0 100px 0; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+  margin-bottom: 140px; }
+  .header__nav-item-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    line-height: 164.063%;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px; }
+  .header__nav .homepage {
+    color: #34547A;
+    line-height: 164.063%; }
+  .header__nav-item {
+    position: relative;
+    padding: 0 20px; }
+
+.homepage::before {
+  content: "";
+  display: block;
+  left: -4px;
+  bottom: 7px;
+  position: absolute;
+  background-image: url(./photo/trick-or-treat.png);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px; }
+
+.about::before {
+  content: "";
+  display: block;
+  left: -4px;
+  bottom: 6px;
+  position: absolute;
+  background-image: url(./photo/bat-wings.png);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px; }
+
+.works::before {
+  content: "";
+  display: block;
+  left: -4px;
+  bottom: 7px;
+  position: absolute;
+  background-image: url(./photo/black-cat.png);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px; }
+
+.process::before {
+  content: "";
+  display: block;
+  left: -4px;
+  bottom: 7px;
+  position: absolute;
+  background-image: url(./photo/scary-evil-ghost.png);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px; }
+
+.contacts::before {
+  content: "";
+  display: block;
+  left: -4px;
+  bottom: 5px;
+  position: absolute;
+  background-image: url(./photo/ghost.png);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px; }
+
+.header-box {
+  padding-bottom: 70px; }
+  .header-box__title {
+    font-size: 48px;
+    padding-bottom: 70px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000; }
+  .header-box__button {
+    margin: 0;
+    padding: 20px 41px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    background-color: #34547A;
+    color: #F9F9F9; }
+  .header-box__text {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+    padding-bottom: 70px;
+    max-width: 550px; }
+
+.main-section {
+  background-color: #F9F9F9;
+  padding: 70px 0 60px 0; }
+
+.content {
+  text-align: center;
+  margin-bottom: 45px;
+  max-width: 550px;
+  margin: 0 auto; }
+  .content__title {
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; }
+  .content__text {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+    padding-bottom: 70px; }
+
+.image-line {
+  background-color: #34547A;
+  padding: 100px 0; }
+
+.main__project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.main__project-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 40px;
+  color: #F9F9F9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%; }
+  .main__project-item .main__project-desc__bold {
+    font-weight: 500;
+    font-size: 21px; }
+  .main__project-item .main__project-image {
+    max-width: 100%;
+    margin-right: 30px; }
+
+.main-bottom-section {
+  text-align: center;
+  margin: 60px; }
+
+.main-bottom_box {
+  margin-bottom: 57px; }
+
+.footer {
+  background-color: #34547A; }
+
+.footer-line {
+  padding: 30px 0 10px 0;
+  color: #F9F9F9; }
+  .footer-line__footer-text {
+    padding-bottom: 20px;
+    font-size: 21px;
+    font-weight: 500; }
+  .footer-line__par-reserv {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 164.063%; }
