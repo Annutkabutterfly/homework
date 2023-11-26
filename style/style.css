@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.map-kyiv {
+ width: 471px;
+ height:353px;
+ 
+}
+.map-kharkiv {
+  width:471px;
+  height:353px;
+}
+
+.contacts-section-block {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+._name-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contacts-block_name {
+  font-size: 16px;
+  font-family: "Roboto-Bold";
+  
+}
+.contacts-block_adress {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.contacts-block_phone {
+  display: flex;
+  gap: 5px;
+  margin-top: 26px;
+}
+.contacts_description-phone {
+  font-size: 14px;
+  font-family: "Roboto-Bold";
+}
+.contacts-schedule-container {
+  margin-top: 26px;
+}
+
+.contacts-schedule_grid {
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(4,20px);
+  grid-template-columns: repeat(2, 180px);
+  gap: 12px;
+}
+ 
+.contacts-schedule_grid-item {
+  display: flex;
+  gap: 5px;
+}
+.contacts-schedule_title {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-family: "Roboto-Bold";
+}
+.report-form_title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 28.1px;
+}
+.report-form-container {
+margin: 20px auto 100px auto;
+max-width: 600px;
+}
+
+.input-name-box {
+  display: flex;
+  gap: 30px;
+}
+
+.input {
+  border: 1px solid #000;
+  padding: 8px 12px;
+}
+.input::placeholder {
+  color: #6C6C6C;
+  font-size: 12px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+  margin: 30px 0 0 0;
+}
+.input-label {
+  font-size: 16px;
+  position: relative;
+}
+.input-label_name::after {
+  content: "*";
+  color: red;
+  position: absolute;
+  padding-left: 4px;
+}
+.input_message {
+ min-height: 160px;
+}
+ /*-----------------------ADaPTIV-------------------*/
+
+ @media screen and (max-width:970px) {
+  .contacts-section-block {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+  }
+  .contacts-schedule_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+}
+
+@media screen and (max-width:550px) {
+  .map-kyiv {
+      width: 320px;
+      height: 200px;
+    }
+
+  .map-kharkiv {
+        width: 320px;
+        height: 200px;
+    }
+  
+}
+@media screen and (max-width:380px) {
+  .map-kyiv {
+      width:  260px;
+      height: 120px;
+  }
+  .map-kharkiv {
+      width: 260px;
+      height: 120px;
+  }
+}   
+@media screen and (max-width:800px) {
+  .feedback-form-container {
+      max-width: 400px;
+  }
+}
+@media screen and (max-width:550px) {
+  .feedback-form-container {
+      max-width: 300px;
+  }
+  .input-name-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+  }
+}
+@media screen and (max-width:400px) {
+  .feedback-form-container {
+      max-width: 260px;
+  }
+}   
